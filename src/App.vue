@@ -1,6 +1,7 @@
 <script setup>
+import Hero from './components/Hero.vue';
  </script>
 
 <template>
-  <h1>asdf</h1>
+  <Hero/>
 </template>
