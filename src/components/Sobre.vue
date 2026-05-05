@@ -5,8 +5,7 @@
 
 
 <template>
-    <section class="bg-gray-100">
-
+    <section class="bg-gray-100 section-initial">
         <div class="grid">
         <div class="texts">
             <span class="tag">Serviços completos para você</span>
@@ -61,6 +60,9 @@
 </template>
 
 <style scoped>
+.section-initial{
+    padding: 3rem 0 0;
+}
 .grid{
     display: flex;
     align-items: center;
