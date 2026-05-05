@@ -139,9 +139,6 @@ figure img{
     right:1rem;
 }
 
-
-
-
     
 @media(max-width:768px){
     .grid{

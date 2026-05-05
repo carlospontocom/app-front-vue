@@ -1,7 +1,7 @@
 <script setup>
-import Hero from './components/Hero.vue';
+import Sobre from './components/Sobre.vue';
  </script>
 
 <template>
-  <Hero/>
+  <Sobre/>
 </template>
