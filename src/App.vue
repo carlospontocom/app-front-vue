@@ -1,7 +1,9 @@
 <script setup>
-import Sobre from './components/Sobre.vue';
- </script>
+import HomeViews from './components/views/HomeViews.vue';
+
+
+</script>
 
 <template>
-  <Sobre/>
+  <HomeViews/>
 </template>
