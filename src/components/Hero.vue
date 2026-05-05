@@ -9,28 +9,46 @@
 
         <div class="grid">
         <div class="texts">
-            <span class="bg-green-300 text-green-700 rounded-full">Serviços completos para você</span>
+            <span class="tag">Serviços completos para você</span>
             <h2 class="font-bold text-[40px]">Sobre a Coopersystem</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit minus possimus at ipsa. Et alias fugit
-                magnam ducimus. Mollitia dolor asperiores pariatur doloremque id sapiente quos ea ex possimus ullam!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita tempora unde soluta? Laboriosam,
-                maxime officia.
+                Somos uma cooperativa que desde 1998 presta serviços especializados nas mais diversas áreas da Tecnologia da Informação, sempre com o objetivo de levar tecnologia com qualidade e usabilidade para as empresas e seus clientes. Acreditamos no poder do trabalho coletivo e na gestão participativa. Sob esses princípios, cultivamos em nossas equipes a responsabilidade compartilhada, a ajuda mútua e a valorização do capital humano, aspectos fundamentais para o desenvolvimento de projetos de excelência.
             </p>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos voluptatem dolorem modi veniam magnam,
-                quisquam placeat sequi earum ratione laborum deleniti quos atque rem dignissimos hic sed magni minus
-                voluptate maiores aliquam est. Asperiores vitae dolorum quibusdam delectus animi aperiam!
+                Contamos com uma equipe técnica altamente capacitada e experiente nas diversas áreas da TI, composta de profissionais que estão em constante atualização e pesquisa para construir os melhores softwares e metodologias para aplicação comercial no mercado. Conheça alguns dos nossos princípios:
             </p>
 
             <ul>
-                <li>Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
-                <li>Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet consectetur.</li>
-                <li>Lorem ipsum dolor sit amet consectetur ocke</li>
-                <li>Lorem ipsum dolor sit.</li>
-            </ul>
+                    <li>
+                        <i class="fas fa-rocket"></i>
+                        <span>Mais de 20 anos de experiência com sistemas bancários</span>
+                    </li>
+
+                    <li>
+                        <i class="fas fa-trophy"></i> 
+                        <span>Diversas premiações em categorias de qualidade</span>
+                    </li>
+
+                    <li>
+                        <i class="fas fa-chalkboard-user"></i>  
+                        <span>Atualização frequente dos profissionais</span>
+                    </li>
+
+                    <li>
+                        <i class="fas fa-handshake"></i>  
+                        <span>Gestão participativa</span>
+                    </li>
+
+                    <li>
+                        <i class="fas fa-lightbulb"></i> 
+                        <span>Pesquisa constante de inovações</span>
+                    </li>
+
+                    <li>
+                        <i class="fas fa-layer-group"></i>  
+                        <span>Serviços em áreas diversas</span>
+                    </li>
+                </ul>
         </div>
 
         <figure>
@@ -57,8 +75,24 @@
     }
 }
 
+.tag{
+    background-color: greenyellow;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 4px 1rem;
+}
+
 .texts{
     width: 100%;
+}
+
+h2{
+    line-height: 36px;
+    margin: 1rem 0;
+}
+
+p{
+    margin: .5rem 0;
 }
 
 ul{
@@ -66,11 +100,24 @@ ul{
     grid-template-columns: repeat(2, 1fr);
     gap:18px;
     padding: 1rem 0;
+    @media(max-width:568px){
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 li{
+    display:flex;
+    align-items:center;
+    gap:5px;
     font-weight: bold;
+    font-size: .9rem;
     padding: 6px 0;
+}
+
+li i{
+    color:green;
+    font-size: 1.9rem;
 }
 
 figure{
@@ -90,5 +137,16 @@ figure img{
     position: absolute;
     bottom: 1rem;
     right:1rem;
+}
+
+
+
+
+    
+@media(max-width:768px){
+    .grid{
+        padding: 3rem 1rem;
+        gap:1rem;
+    }
 }
 </style>
