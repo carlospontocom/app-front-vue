@@ -89,6 +89,7 @@
 }
 
 h2{
+    font-size:2rem;
     line-height: 36px;
     margin: 1rem 0;
 }

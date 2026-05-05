@@ -74,7 +74,8 @@ header{
     top:100%;
     right:0;
     background-color:seagreen;
-    width: 320px;
+    max-width: 320px;
+    width:100%;
 }
 
 .menu a{
