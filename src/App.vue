@@ -1,9 +1,11 @@
 <script setup>
-import HomeViews from './components/views/HomeViews.vue';
-
+ import Hero from './components/Hero.vue';
 
 </script>
 
 <template>
-  <HomeViews/>
+<Hero/>
 </template>
+<style>
+    @import '../src/styles/global.scss';
+</style>
