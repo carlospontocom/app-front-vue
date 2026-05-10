@@ -1,5 +1,22 @@
 # Vue 3 + Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+-Criando sistemas com vue.TS
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+# II - configuração do sistemas e instalações
+npm yarn
+yarn dev
+
+yarn add sass -D
+
+# II - Organização
+pastas
+-classes
+-styles
+-components
+
+
+# III - versionamento e deploy
+-github
+-vercel
+
+# IV - dependências
